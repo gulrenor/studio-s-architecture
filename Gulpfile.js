@@ -110,4 +110,5 @@ gulp.task('default', function() {
   //gulp.watch(dirSass_In, ['styles']);
   gulp.watch(dirJS_In, ['scripts']);
   gulp.watch(dirPug_In, ['html']);
+  gulp.watch('src/pug/data.json', ['html']);
 });

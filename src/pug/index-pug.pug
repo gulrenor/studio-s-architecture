@@ -1,0 +1,235 @@
+mixin social-buttons(button)
+  li
+    a(href=button.url)
+      i(class="fa " + button.faSvcIcon)
+
+mixin portfolioItem(project, i, link)
+  .col-md-4.col-sm-6.portfolio-item
+    a.portfolio-link(href=link data-toggle="modal")
+      .portfolio-hover
+        .portfolio-hover-content
+          i.fa.fa-plus.fa-3x
+      img.img-responsive(src=project.thumb alt=project.desc)
+    .portfolio-caption
+      h4=project.client
+      p.text-muted=project.location
+
+  if ((i % 3) === 0)
+    .clearfix.visible-lg-block.visible-md-block
+
+doctype html
+
+head
+  meta(charset="utf-8")
+  meta(http-equiv="x-ua-compatible" content="ie=edge")
+  meta(name="viewport" content="width=device-width, initial-scale=1")
+  meta(name="author" content="")
+  meta(name="description" content="")
+  meta(name="keywords" content="")
+
+  title Studio S Architecture
+
+  block styles
+    link(rel="stylesheet" href="css/bootstrap.min.css")
+    //link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous")
+    link(rel="stylesheet" href="css/agency.css")
+
+  // Custom fonts
+  link(rel="stylesheet" href="font-awesome/css/font-awesome.min.css")
+  link(rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700")
+  link(rel="stylesheet" href="http://fonts.googleapis.com/css?family=Kaushan+Script")
+  link(rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic")
+  link(rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700")
+
+  link(rel="shortcut icon" href="favicon.png")
+
+body#page-top.index
+
+  nav.navbar.navbar-default.navbar-fixed-top
+    .container
+      .navbar-header.page-scroll
+        button.navbar-toggle(type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1")
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand.page-scroll(href="#page-top")
+          img(src="./img/logos/studio-s-architecture.png" style="width: 60%; max-width: 300px; position:absolute; top:15px")
+
+      #bs-example-navbar-collapse-1.collapse.navbar-collapse
+        ul.nav.navbar-nav.navbar-right
+          li.hidden
+            a(href="#page-top")
+          li
+            a.page-scroll(href="#about") About
+          li
+            a.page-scroll(href="#ontheboards") On the Boards
+          li
+            a.page-scroll(href="#portfolio") Portfolio
+          li
+            a.page-scroll(href="#contact") Contact
+
+  header
+    .container
+      .intro-text
+        .intro-lead-in Welcome To
+        img.img-responsive.img-centered(src="img/logos/studio-s-architecture.png")
+
+  section#about.bg-light-gray
+    .container
+      .row
+        .col-lg-12.text-center
+          h2.section-heading About
+          h3.section-subheading.text-muted Studio S Architecture is a firm dedicated to providing the highest level of design &amp; service to our clients.
+          p Whether it is a large corporate headquarters ground up project, or a small interior renovation, we strive to give every project the focus &amp; attention required to achieve your goals. With over 18 years of experience in architectural design and construction management, Studio S Architecture is an innovative, collaborative, and experienced firm that will work with you to turn your ideas into reality.
+          p Studio S Architecture is registered in the following states: MA, ME, NH, VT, RI, CT, NY, NJ, PA, WV, VA, MD, DE, and KY
+      .row
+        .col-lg-12.text-center
+          ul.timeline
+            li.timeline-inverted
+              .team-member
+                img.img-responsive.img-circle(src="img/team/vinny.jpg" alt="Picture of Vincent")
+                h4 Vincent James Sorrentino, AIA
+                p.text-muted Principal/Owner
+                p Received his Bachelor of Architecture degree from Roger Williams University in 2005. He studied art, architecture and architectural history in Italy, France and throughout Europe while attending the Institute of Liberal Arts at Palazzo Rucellai in Florence. Over the past 18 years he has been an integral part of countless design &amp; construction projects from site design, ground up construction, to space planning and interior design.
+                ul.list-inline.social-buttons
+                  each button in social
+                    +social-buttons(button)
+
+  // OTB Grid
+  section#ontheboards
+    .container
+      .row
+        .col-lg-12.text-center
+          h2.section-heading On the Boards
+
+      .row
+        -var projectIndex = 0;
+        each project, i in otb
+          if (project.active)
+            -projectIndex++;
+            -var modalLink = "#otbModal" + projectIndex;
+            .col-md-4.col-sm-6.portfolio-item
+              a.portfolio-link(href=modalLink data-toggle="modal")
+                .portfolio-hover
+                  .portfolio-hover-content
+                    i.fa.fa-plus.fa-3x
+                img.img-responsive(src=project.thumb alt=project.desc)
+
+  // OTB Modals
+  -var projectIndex = 0;
+  each project, i in otb
+    if (project.active)
+      -projectIndex++;
+      -var modalId = "otbModal" + projectIndex;
+      .portfolio-modal.modal.fade(id=modalId tabindex="-1" role="dialog" aria-hidden="true")
+        .modal-content
+          .close-modal(data-dismiss="modal")
+            .lr
+              .rl
+          .container
+            .row
+              .col-lg-8.col-lg-offset-2
+                .modal-body
+                  img.img-responsive.img-centered(src=project.img alt=project.desc)
+                  button.btn.btn-primary(type="button" data-dismiss="modal")
+                    i.fa.fa-times
+                    | &nbsp;Close Project
+
+  // Portfolio Grid
+  section#portfolio.bg-light-gray
+    .container
+      .row
+        .col-lg-12.text-center
+          h2.section-heading Portfolio
+      .row
+        -var projectIndex = 0;
+        each project in portfolio
+          if (project.active)
+            -projectIndex++;
+            -var modalLink = "#portfolioModal" + projectIndex;
+              +portfolioItem(project, projectIndex, modalLink)
+
+  // Portfolio Modals
+  -var projectIndex = 0
+  each project in portfolio
+    if (project.active)
+      -projectIndex++;
+      -var modalId = "portfolioModal" + projectIndex;
+      .portfolio-modal.modal.fade(id=modalId)
+        .modal-content
+          .close-modal(data-dismiss="modal")
+            .lr
+              .rl
+          .container
+            .row
+              .col-lg-8.col-lg-offset-2
+                .modal-body
+                  h2=project.client
+                  p.item-intro.text-muted=project.desc
+                  each credit in project.credits
+                    p.item-intro=credit
+
+                  each gallery in project.gallery
+                    img.img-responsive.img-centered(src=gallery.img alt=gallery.desc)
+
+                  button.btn.btn-primary(type="button" data-dismiss="modal")
+                    i.fa.fa-times
+                    | &nbsp;Close Project
+
+  section#contact
+    .container
+      .row
+        .col-lg-12.text-center
+          h2.section-heading Contact Us
+      .row
+        .col-lg-12
+          form#contactForm(name="sentMessage" novalidate)
+            .row
+              .col-md-6
+                .form-group
+                  input#name.form-control(placeholder="Your Name *" data-validation-required-message="Please enter your name." required)
+                  p.help-block.text-danger
+                .form-group
+                  input#email.form-control(placeholder="Your Email *" data-validation-required-message="Please enter your email address." required)
+                  p.help-block.text-danger
+                .form-group
+                  input#phone.form-control(placeholder="Your Phone *" data-validation-required-message="Please enter your phone number." required)
+                  p.help-block.text-danger
+              .col-md-6
+                .form-group
+                  textarea#message.form-control(placeholder="Your message *" data-validation-required-message="Please enter a message." required)
+                  p.help-block.text-danger
+              .clearfix
+              .col-lg-12.text-center
+                #success
+                button.btn.btn-xl(type="submit") Send message
+
+  footer
+    .container
+      .row
+        .col-md-4
+          span.copyright Copyright &copy; Studio S Architecture 2017
+        .col-md-4
+          ul.list-inline.social-buttons
+            each button in social
+              +social-buttons(button)
+
+
+
+
+// Scripts
+block scripts
+  script(src="js/jquery.js")
+  script(src="js/bootstrap.min.js")
+
+  //script(src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous")
+  //script(src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous")
+  //script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous")
+
+  script(src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js")
+  script(src="js/classie.js")
+  script(src="js/cbpAnimatedHeader.js")
+  script(src="js/jqBootstrapValidation.js")
+  script(src="js/contact_me.js")
+  script(src="js/agency.js")
