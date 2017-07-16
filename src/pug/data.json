@@ -1,5 +1,6 @@
 {
-  "social": [{
+  "social": [
+    {
       "url": "https://twitter.com/Studio_S_Arch",
       "faSvcIcon": "fa-twitter"
     },
@@ -12,8 +13,15 @@
       "faSvcIcon": "fa-linkedin"
     }
   ],
-  "otb": [{
+  "otb": [
+    {
       "active": true,
+      "thumb": "img/on-the-boards/dean-bank-thumb.jpg",
+      "img": "img/on-the-boards/dean-bank.jpg",
+      "desc": ""
+    },
+    {
+      "active": false,
       "thumb": "img/on-the-boards/arrha_night2.jpg",
       "img": "img/on-the-boards/arrha-cu.jpg",
       "desc": ""
@@ -26,6 +34,12 @@
     },
     {
       "active": true,
+      "thumb": "img/on-the-boards/fitness-center-thumb.jpg",
+      "img": "img/on-the-boards/fitness-center.jpg",
+      "desc": ""
+    },
+    {
+      "active": false,
       "thumb": "img/on-the-boards/mazda-thumb.jpg",
       "img": "img/on-the-boards/mazda.jpg",
       "desc": ""
@@ -38,6 +52,12 @@
     },
     {
       "active": true,
+      "thumb": "img/on-the-boards/country-bank-thumb.jpg",
+      "img": "img/on-the-boards/country-bank.jpg",
+      "desc": ""
+    },
+    {
+      "active": false,
       "thumb": "img/on-the-boards/tsb-andover-thumb.jpg",
       "img": "img/on-the-boards/tsb-andover.jpg",
       "desc": ""
@@ -49,79 +69,71 @@
       "desc": ""
     }
   ],
-  "portfolio": [{
-      "active": true,
-      "client": "Marlborough Savings Bank",
-      "location": "Sudbury, MA",
-      "thumb": "img/portfolio/marlborough-savings-bank/thumb.jpg",
-      "desc": "A financial institution in Sudbury, MA",
-      "credits": [
-        "Architect: Studio S Architecture",
-        "Design/Build/Furnish Consultant: Solidus"
-      ],
-      "gallery": [{
-          "img": "img/portfolio/marlborough-savings-bank/1.JPG",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/marlborough-savings-bank/2.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/marlborough-savings-bank/3.JPG",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/marlborough-savings-bank/4.JPG",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/marlborough-savings-bank/5.JPG",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/marlborough-savings-bank/6.JPG",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/marlborough-savings-bank/7.JPG",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/marlborough-savings-bank/8.JPG",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/marlborough-savings-bank/9.JPG",
-          "desc": ""
-        }
-      ]
-    },
+  "portfolio": [
     {
       "active": true,
-      "client": "Anytime Fitness",
-      "location": "Peabody, MA",
-      "thumb": "img/portfolio/anytime-fitness/anytime-thumb.jpg",
-      "desc": "A fitness chain located in Peabody, MA.",
-      "credits": [],
-      "gallery": [{
-          "img": "img/portfolio/anytime-fitness/anytime_fitness-001_1.jpg",
+      "client": "MFS Investment Management",
+      "location": "Boylston Street, Boston, MA",
+      "thumb": "img/portfolio/mfs-roof-atrium/mfs-atrium-thumb.jpg",
+      "desc": "An atrium for MFS' new roof deck in Boston, MA",
+      "credits": [
+        "Architect: Studio S Architecture"
+      ],
+      "gallery": [
+        {
+          "img": "img/portfolio/mfs-roof-atrium/mfs-atrium-01.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/anytime-fitness/anytime_fitness-002_1.jpg",
+          "img": "img/portfolio/mfs-roof-atrium/mfs-atrium-02.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/anytime-fitness/anytime_fitness-003_1.jpg",
+          "img": "img/portfolio/mfs-roof-atrium/mfs-atrium-03.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/anytime-fitness/anytime_fitness-004_1.jpg",
+          "img": "img/portfolio/mfs-roof-atrium/mfs-atrium-04.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/anytime-fitness/anytime_fitness-005_1.jpg",
+          "img": "img/portfolio/mfs-roof-atrium/mfs-atrium-05.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof-atrium/mfs-atrium-06.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof-atrium/mfs-atrium-07.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof-atrium/mfs-atrium-08.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof-atrium/mfs-atrium-09.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof-atrium/mfs-atrium-10.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof-atrium/mfs-atrium-11.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof-atrium/mfs-atrium-12.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof-atrium/mfs-atrium-13.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof-atrium/mfs-atrium-14.jpg",
           "desc": ""
         }
       ]
@@ -135,7 +147,8 @@
       "credits": [
         "Architect: Studio S Architecture"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/mfs-roof/1.jpg",
           "desc": ""
         },
@@ -183,6 +196,267 @@
     },
     {
       "active": true,
+      "client": "Marlborough Savings Bank",
+      "location": "Sudbury, MA",
+      "thumb": "img/portfolio/marlborough-savings-bank/thumb.jpg",
+      "desc": "A financial institution in Sudbury, MA",
+      "credits": [
+        "Architect: Studio S Architecture",
+        "Design/Build/Furnish Consultant: Solidus"
+      ],
+      "gallery": [
+        {
+          "img": "img/portfolio/marlborough-savings-bank/1.JPG",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/marlborough-savings-bank/2.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/marlborough-savings-bank/3.JPG",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/marlborough-savings-bank/4.JPG",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/marlborough-savings-bank/5.JPG",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/marlborough-savings-bank/6.JPG",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/marlborough-savings-bank/7.JPG",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/marlborough-savings-bank/8.JPG",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/marlborough-savings-bank/9.JPG",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "active": true,
+      "client": "Georgetown Bank",
+      "location": "North Andover, MA",
+      "thumb": "img/portfolio/georgetown-bank/georgetown-thumb.jpg",
+      "desc": "A financial institution located in North Andover, MA.",
+      "credits": [
+        "Architect: Studio S Architecture"
+      ],
+      "gallery": [
+        {
+          "img": "img/portfolio/georgetown-bank/ext1.JPG",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/georgetown-bank/ext2.JPG",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/georgetown-bank/int1.JPG",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/georgetown-bank/int2.JPG",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/georgetown-bank/int3.JPG",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/georgetown-bank/int4.JPG",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/georgetown-bank/int6.JPG",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/georgetown-bank/int7.JPG",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "active": true,
+      "client": "CorePlus Federal Credit Union",
+      "location": "Norwich, CT",
+      "thumb": "img/portfolio/cpcu/cpcu-thumb.jpg",
+      "desc": "A credit Union located in Norwich, CT",
+      "credits": [
+        "Architect: Studio S Architecture",
+        "Design/Build/Furnish Consultant: Solidus"
+      ],
+      "gallery": [
+        {
+          "img": "img/portfolio/cpcu/cpcu-001.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/cpcu/cpcu-002.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/cpcu/cpcu-003.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/cpcu/cpcu-004.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/cpcu/cpcu-005.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/cpcu/cpcu-006.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/cpcu/cpcu-007.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/cpcu/cpcu-008.jpg",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "active": true,
+      "client": "Marlborough Savings Bank",
+      "location": "Hudson, MA",
+      "thumb": "img/portfolio/msb-hudson/msb-hudson-thumb.jpg",
+      "desc": "",
+      "credits": [
+        "Architect: Studio S Architecture",
+        "Design/Build/Furnish Consultant: Solidus"
+      ],
+      "gallery": [
+        {
+          "img": "img/portfolio/msb-hudson/Exterior-1.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/msb-hudson/Exterior-2.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/msb-hudson/Exterior-3.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/msb-hudson/Exterior-4.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/msb-hudson/Exterior-5.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/msb-hudson/Interior-1.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/msb-hudson/Interior-2.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/msb-hudson/Interior-3.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/msb-hudson/Interior-4.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/msb-hudson/Interior-5.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/msb-hudson/Interior-6.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/msb-hudson/Interior-7.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/msb-hudson/Interior-8.jpg",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "active": false,
+      "client": "Dean Bank",
+      "location": "Bellingham, MA",
+      "thumb": "img/portfolio/dean_thumb.jpg",
+      "desc": "",
+      "credits": [
+        "Designer/Architect: Vincent James Sorrentino, AIA while working at DRL Associates, Architects, Inc.",
+        "Project Management & Design Consultant: NES Group"
+      ],
+      "gallery": [
+        {
+          "img": "img/portfolio/2.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/6.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/8.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/Dean%20Bank%20-%201.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/DeanBank-3.jpg",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "active": true,
+      "client": "GFA Federal Credit Union",
+      "location": "Leominster, MA",
+      "thumb": "img/portfolio/gfa-leominster_thumb.jpg",
+      "desc": "",
+      "credits": [
+        "Designer/Architect: Vincent James Sorrentino, AIA while working at DRL Associates, Architects, Inc.",
+        "Project Management & Design Consultant: NES Group"
+      ],
+      "gallery": [
+        {
+          "img": "img/portfolio/2%20-%20GFA%20Leominster%20Exterior.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/6%20-%20Waiting%20Area%20&%20Teller.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/7%20-%20Tellers.jpg",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "active": true,
       "client": "Onset Residence",
       "location": "Onset, MA",
       "thumb": "img/portfolio/onset/thumb.jpg",
@@ -190,7 +464,8 @@
       "credits": [
         "Architect: Studio S Architecture"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/onset/1.jpg",
           "desc": ""
         },
@@ -246,207 +521,30 @@
     },
     {
       "active": true,
-      "client": "GFA Federal Credit Union",
-      "location": "Leominster, MA",
-      "thumb": "img/portfolio/gfa-leominster_thumb.jpg",
-      "desc": "",
-      "credits": [
-        "Designer/Architect: Vincent James Sorrentino, AIA while working at DRL Associates, Architects, Inc.",
-        "Project Management & Design Consultant: NES Group"
-      ],
-      "gallery": [{
-          "img": "img/portfolio/2%20-%20GFA%20Leominster%20Exterior.jpg",
+      "client": "Anytime Fitness",
+      "location": "Peabody, MA",
+      "thumb": "img/portfolio/anytime-fitness/anytime-thumb.jpg",
+      "desc": "A fitness chain located in Peabody, MA.",
+      "credits": [],
+      "gallery": [
+        {
+          "img": "img/portfolio/anytime-fitness/anytime_fitness-001_1.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/6%20-%20Waiting%20Area%20&%20Teller.jpg",
+          "img": "img/portfolio/anytime-fitness/anytime_fitness-002_1.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/7%20-%20Tellers.jpg",
-          "desc": ""
-        }
-      ]
-    },
-    {
-      "active": true,
-      "client": "CorePlus Federal Credit Union",
-      "location": "Norwich, CT",
-      "thumb": "img/portfolio/cpcu/cpcu-thumb.jpg",
-      "desc": "A credit Union located in Norwich, CT",
-      "credits": [
-        "Architect: Studio S Architecture",
-        "Design/Build/Furnish Consultant: Solidus"
-      ],
-      "gallery": [{
-          "img": "img/portfolio/cpcu/cpcu-001.jpg",
+          "img": "img/portfolio/anytime-fitness/anytime_fitness-003_1.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/cpcu/cpcu-002.jpg",
+          "img": "img/portfolio/anytime-fitness/anytime_fitness-004_1.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/cpcu/cpcu-003.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/cpcu/cpcu-004.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/cpcu/cpcu-005.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/cpcu/cpcu-006.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/cpcu/cpcu-007.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/cpcu/cpcu-008.jpg",
-          "desc": ""
-        }
-      ]
-    },
-    {
-      "active": true,
-      "client": "Marlborough Savings Bank",
-      "location": "Hudson, MA",
-      "thumb": "img/portfolio/msb-hudson/msb-hudson-thumb.jpg",
-      "desc": "",
-      "credits": [
-        "Architect: Studio S Architecture",
-        "Design/Build/Furnish Consultant: Solidus"
-      ],
-      "gallery": [{
-          "img": "img/portfolio/msb-hudson/Exterior-1.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/msb-hudson/Exterior-2.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/msb-hudson/Exterior-3.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/msb-hudson/Exterior-4.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/msb-hudson/Exterior-5.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/msb-hudson/Interior-1.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/msb-hudson/Interior-2.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/msb-hudson/Interior-3.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/msb-hudson/Interior-4.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/msb-hudson/Interior-5.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/msb-hudson/Interior-6.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/msb-hudson/Interior-7.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/msb-hudson/Interior-8.jpg",
-          "desc": ""
-        }
-      ]
-    },
-    {
-      "active": true,
-      "client": "Dean Bank",
-      "location": "Bellingham, MA",
-      "thumb": "img/portfolio/dean_thumb.jpg",
-      "desc": "",
-      "credits": [
-        "Designer/Architect: Vincent James Sorrentino, AIA while working at DRL Associates, Architects, Inc.",
-        "Project Management & Design Consultant: NES Group"
-      ],
-      "gallery": [{
-          "img": "img/portfolio/2.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/6.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/8.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/Dean%20Bank%20-%201.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/DeanBank-3.jpg",
-          "desc": ""
-        }
-      ]
-    },
-    {
-      "active": true,
-      "client": "Georgetown Bank",
-      "location": "North Andover, MA",
-      "thumb": "img/portfolio/georgetown-bank/georgetown-thumb.jpg",
-      "desc": "A financial institution located in North Andover, MA.",
-      "credits": [
-        "Architect: Studio S Architecture"
-      ],
-      "gallery": [{
-          "img": "img/portfolio/georgetown-bank/ext1.JPG",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/georgetown-bank/ext2.JPG",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/georgetown-bank/int1.JPG",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/georgetown-bank/int2.JPG",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/georgetown-bank/int3.JPG",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/georgetown-bank/int4.JPG",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/georgetown-bank/int6.JPG",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/georgetown-bank/int7.JPG",
+          "img": "img/portfolio/anytime-fitness/anytime_fitness-005_1.jpg",
           "desc": ""
         }
       ]
