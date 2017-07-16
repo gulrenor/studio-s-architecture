@@ -9,9 +9,6 @@
 *.prproj
 *.aep
 
-### Less ###
-*.css
-
 ### macOS ###
 *.DS_Store
 .AppleDouble
