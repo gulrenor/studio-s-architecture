@@ -289,77 +289,45 @@
     },
     {
       "active": true,
-      "client": "Florence Bank",
-      "location": "West Springfield, MA",
-      "thumb": "img/portfolio/florence-bank/florence-bank-thumb.jpg",
-      "desc": "A Financial Institution in West Springfield, MA",
+      "client": "CorePlus Federal Credit Union",
+      "location": "Norwich, CT",
+      "thumb": "img/portfolio/cpcu/cpcu-thumb.jpg",
+      "desc": "A credit Union located in Norwich, CT",
       "credits": [
         "Architect: Studio S Architecture",
         "Design/Build/Furnish Consultant: Solidus"
       ],
       "gallery": [
         {
-          "img": "img/portfolio/florence-bank/florence-bank01.jpg",
+          "img": "img/portfolio/cpcu/cpcu-001.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/florence-bank/florence-bank02.jpg",
+          "img": "img/portfolio/cpcu/cpcu-002.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/florence-bank/florence-bank03.jpg",
+          "img": "img/portfolio/cpcu/cpcu-003.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/florence-bank/florence-bank04.jpg",
+          "img": "img/portfolio/cpcu/cpcu-004.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/florence-bank/florence-bank05.jpg",
+          "img": "img/portfolio/cpcu/cpcu-005.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/florence-bank/florence-bank06.jpg",
+          "img": "img/portfolio/cpcu/cpcu-006.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/florence-bank/florence-bank07.jpg",
+          "img": "img/portfolio/cpcu/cpcu-007.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/florence-bank/florence-bank08.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/florence-bank/florence-bank09.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/florence-bank/florence-bank10.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/florence-bank/florence-bank11.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/florence-bank/florence-bank12.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/florence-bank/florence-bank13.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/florence-bank/florence-bank14.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/florence-bank/florence-bank15.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/florence-bank/florence-bank16.jpg",
+          "img": "img/portfolio/cpcu/cpcu-008.jpg",
           "desc": ""
         }
       ]
@@ -464,89 +432,25 @@
     },
     {
       "active": true,
-      "client": "Mastria Mazda",
-      "location": "Raynham, MA",
-      "thumb": "img/portfolio/mazda/mazda-thumb.jpg",
-      "desc": "Mazda Dealership in Raynham, MA",
+      "client": "GFA Federal Credit Union",
+      "location": "Leominster, MA",
+      "thumb": "img/portfolio/gfa-leominster_thumb.jpg",
+      "desc": "",
       "credits": [
-        "Architect: Studio S Architecture",
-        "Contractor: Kirker-Perry Construction"
+        "Designer/Architect: Vincent James Sorrentino, AIA while working at DRL Associates, Architects, Inc.",
+        "Project Management & Design Consultant: NES Group"
       ],
       "gallery": [
         {
-          "img": "img/portfolio/mazda/mazda01.jpg",
+          "img": "img/portfolio/2%20-%20GFA%20Leominster%20Exterior.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/mazda/mazda02.jpg",
+          "img": "img/portfolio/6%20-%20Waiting%20Area%20&%20Teller.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/mazda/mazda03.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/mazda/mazda04.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/mazda/mazda05.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/mazda/mazda06.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/mazda/mazda07.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/mazda/mazda08.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/mazda/mazda09.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/mazda/mazda10.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/mazda/mazda11.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/mazda/mazda12.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/mazda/mazda13.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/mazda/mazda14.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/mazda/mazda15.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/mazda/mazda16.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/mazda/mazda17.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/mazda/mazda18.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/mazda/mazda19.jpg",
+          "img": "img/portfolio/7%20-%20Tellers.jpg",
           "desc": ""
         }
       ]
@@ -641,76 +545,6 @@
         },
         {
           "img": "img/portfolio/anytime-fitness/anytime_fitness-005_1.jpg",
-          "desc": ""
-        }
-      ]
-    },
-    {
-      "active": false,
-      "client": "CorePlus Federal Credit Union",
-      "location": "Norwich, CT",
-      "thumb": "img/portfolio/cpcu/cpcu-thumb.jpg",
-      "desc": "A credit Union located in Norwich, CT",
-      "credits": [
-        "Architect: Studio S Architecture",
-        "Design/Build/Furnish Consultant: Solidus"
-      ],
-      "gallery": [
-        {
-          "img": "img/portfolio/cpcu/cpcu-001.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/cpcu/cpcu-002.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/cpcu/cpcu-003.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/cpcu/cpcu-004.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/cpcu/cpcu-005.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/cpcu/cpcu-006.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/cpcu/cpcu-007.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/cpcu/cpcu-008.jpg",
-          "desc": ""
-        }
-      ]
-    },
-    {
-      "active": false,
-      "client": "GFA Federal Credit Union",
-      "location": "Leominster, MA",
-      "thumb": "img/portfolio/gfa-leominster_thumb.jpg",
-      "desc": "",
-      "credits": [
-        "Designer/Architect: Vincent James Sorrentino, AIA while working at DRL Associates, Architects, Inc.",
-        "Project Management & Design Consultant: NES Group"
-      ],
-      "gallery": [
-        {
-          "img": "img/portfolio/2%20-%20GFA%20Leominster%20Exterior.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/6%20-%20Waiting%20Area%20&%20Teller.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/7%20-%20Tellers.jpg",
           "desc": ""
         }
       ]
