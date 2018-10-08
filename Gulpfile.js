@@ -8,7 +8,8 @@ var pump = require('pump');
 var livereload = require('gulp-livereload');
 
 // S/CSS
-var sass = require('gulp-sass');
+// var sass = require('gulp-sass');
+var sass = require('gulp-less');
 var autoprefixer = require('gulp-autoprefixer');
 var cssnano = require('gulp-cssnano');
 
@@ -26,7 +27,7 @@ var path = require('path');
 var merge = require('gulp-merge-json');
 
 // Locations
-var dirSass_In = 'src/sass/**/*.*css';
+var dirSass_In = 'src/less/**/*.less';
 var dirCSS_Out = 'www/css/';
 
 var dirJS_In = 'src/js/**/*.js';
