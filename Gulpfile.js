@@ -9,7 +9,7 @@ var livereload = require('gulp-livereload');
 
 // S/CSS
 // var sass = require('gulp-sass');
-var sass = require('gulp-less');
+var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var cssnano = require('gulp-cssnano');
 
@@ -27,7 +27,7 @@ var path = require('path');
 var merge = require('gulp-merge-json');
 
 // Locations
-var dirSass_In = 'src/less/**/*.less';
+var dirSass_In = 'src/sass/**/*.scss';
 var dirCSS_Out = 'www/css/';
 
 var dirJS_In = 'src/js/**/*.js';
@@ -43,8 +43,9 @@ var dirJSON_Out = 'src/pug/'; // Doesn't need to be public because it's compiled
 gulp.task('styles', function(cb) {
   pump([
     gulp.src(dirSass_In),
-    sass().on('error', sass.logError),
+    // sass().on('error', sass.logError),
     autoprefixer('last 2 versions', 'safari >=8', 'ie >= 10', 'opera 12.1', 'ios 6', 'android 4'),
+    sass(),
     gulp.dest(dirCSS_Out),
     rename({
       suffix: '.min'
@@ -108,7 +109,7 @@ gulp.task('build', function() {
 // Watch
 gulp.task('default', function() {
   livereload.listen();
-  //gulp.watch(dirSass_In, ['styles']);
+  gulp.watch(dirSass_In, ['styles']);
   gulp.watch(dirJS_In, ['scripts']);
   gulp.watch(dirPug_In, ['html']);
   gulp.watch('src/pug/data.json', ['html']);
