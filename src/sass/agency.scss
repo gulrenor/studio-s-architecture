@@ -72,6 +72,7 @@ h6 {
   @include button-variant(white, $brand-primary, $brand-primary);
   @include heading-font;
   font-weight: 700;
+  font-size: 2.5rem;
 }
 
 .btn-xl {
@@ -79,7 +80,7 @@ h6 {
   @include heading-font;
   font-weight: 700;
   border-radius: 3px;
-  font-size: 18px;
+  font-size: 3rem;
   padding: 20px 40px;
 }
 
@@ -242,7 +243,7 @@ section {
   padding: 100px 0;
 
   h2.section-heading {
-    font-size: 40px;
+    font-size: 6rem;
     margin-top: 0;
     margin-bottom: 15px;
   }
@@ -272,7 +273,7 @@ section {
 
 // Portfolio Section
 
-#portfolio,
+#work,
 #ontheboards {
   .portfolio-item {
     margin: 0 0 15px;
@@ -330,6 +331,7 @@ section {
       h4 {
         text-transform: none;
         margin: 0;
+        font-size: 2.5rem;
       }
 
       p {
@@ -347,7 +349,7 @@ section {
 }
 
 @media(min-width:767px) {
-  #portfolio {
+  #work {
     .portfolio-item {
       margin: 0 0 30px;
     }

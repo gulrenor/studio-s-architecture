@@ -37,8 +37,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "BenchNine", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  font-size: 1.5em;
   font-weight: 700; }
 
 .img-centered {
@@ -54,9 +55,11 @@ h6 {
   color: white;
   background-color: #1338ce;
   border-color: #1338ce;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "BenchNine", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700; }
+  font-size: 1.5em;
+  font-weight: 700;
+  font-size: 2.5rem; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active,
   .open .dropdown-toggle .btn-primary {
     color: white;
@@ -81,11 +84,12 @@ h6 {
   color: white;
   background-color: #1338ce;
   border-color: #1338ce;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "BenchNine", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  font-size: 1.5em;
   font-weight: 700;
   border-radius: 3px;
-  font-size: 18px;
+  font-size: 3rem;
   padding: 20px 40px; }
   .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active,
   .open .dropdown-toggle .btn-xl {
@@ -125,8 +129,9 @@ h6 {
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
       background-color: #1338ce; }
   .navbar-default .nav li a {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "BenchNine", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    font-size: 1.5em;
     font-weight: 400;
     letter-spacing: 1px;
     color: white; }
@@ -162,7 +167,7 @@ h6 {
       font-size: 1.5em; } }
 
 header {
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/cover-dean.jpg");
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -182,8 +187,9 @@ header {
       line-height: 22px;
       margin-bottom: 25px; }
     header .intro-text .intro-heading {
-      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "BenchNine", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-transform: uppercase;
+      font-size: 1.5em;
       font-weight: 700;
       font-size: 50px;
       line-height: 50px;
@@ -200,8 +206,9 @@ header {
       line-height: 40px;
       margin-bottom: 25px; }
     header .intro-text .intro-heading {
-      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "BenchNine", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
       text-transform: uppercase;
+      font-size: 1.5em;
       font-weight: 700;
       font-size: 75px;
       line-height: 75px;
@@ -210,7 +217,7 @@ header {
 section {
   padding: 100px 0; }
   section h2.section-heading {
-    font-size: 40px;
+    font-size: 6rem;
     margin-top: 0;
     margin-bottom: 15px; }
   section h3.section-subheading {
@@ -229,17 +236,17 @@ section {
   margin: 15px 0;
   text-transform: none; }
 
-#portfolio .portfolio-item,
+#work .portfolio-item,
 #ontheboards .portfolio-item {
   margin: 0 0 15px;
   right: 0; }
-  #portfolio .portfolio-item .portfolio-link,
+  #work .portfolio-item .portfolio-link,
   #ontheboards .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     max-width: 400px;
     margin: 0 auto; }
-    #portfolio .portfolio-item .portfolio-link .portfolio-hover,
+    #work .portfolio-item .portfolio-link .portfolio-hover,
     #ontheboards .portfolio-item .portfolio-link .portfolio-hover {
       background: rgba(19, 56, 206, 0.9);
       position: absolute;
@@ -249,10 +256,10 @@ section {
       transition: all ease 0.5s;
       -webkit-transition: all ease 0.5s;
       -moz-transition: all ease 0.5s; }
-      #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover,
+      #work .portfolio-item .portfolio-link .portfolio-hover:hover,
       #ontheboards .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
-      #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content,
+      #work .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content,
       #ontheboards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
         position: absolute;
         width: 100%;
@@ -262,38 +269,39 @@ section {
         top: 50%;
         margin-top: -12px;
         color: white; }
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i,
+        #work .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i,
         #ontheboards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
           margin-top: -12px; }
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4,
+        #work .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+        #work .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4,
         #ontheboards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
         #ontheboards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
           margin: 0; }
-  #portfolio .portfolio-item .portfolio-caption,
+  #work .portfolio-item .portfolio-caption,
   #ontheboards .portfolio-item .portfolio-caption {
     max-width: 400px;
     margin: 0 auto;
     background-color: white;
     text-align: center;
     padding: 25px; }
-    #portfolio .portfolio-item .portfolio-caption h4,
+    #work .portfolio-item .portfolio-caption h4,
     #ontheboards .portfolio-item .portfolio-caption h4 {
       text-transform: none;
-      margin: 0; }
-    #portfolio .portfolio-item .portfolio-caption p,
+      margin: 0;
+      font-size: 2.5rem; }
+    #work .portfolio-item .portfolio-caption p,
     #ontheboards .portfolio-item .portfolio-caption p {
       font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-style: italic;
       font-size: 16px;
       margin: 0; }
 
-#portfolio *,
+#work *,
 #ontheboards * {
   z-index: 2; }
 
 @media (min-width: 767px) {
-  #portfolio .portfolio-item {
+  #work .portfolio-item {
     margin: 0 0 30px; } }
 
 .timeline {
@@ -467,25 +475,29 @@ section#contact {
     -webkit-box-shadow: none;
     box-shadow: none; }
   section#contact ::-webkit-input-placeholder {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "BenchNine", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    font-size: 1.5em;
     font-weight: 700;
     color: #bbbbbb; }
   section#contact :-moz-placeholder {
     /* Firefox 18- */
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "BenchNine", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    font-size: 1.5em;
     font-weight: 700;
     color: #bbbbbb; }
   section#contact ::-moz-placeholder {
     /* Firefox 19+ */
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "BenchNine", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    font-size: 1.5em;
     font-weight: 700;
     color: #bbbbbb; }
   section#contact :-ms-input-placeholder {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "BenchNine", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    font-size: 1.5em;
     font-weight: 700;
     color: #bbbbbb; }
   section#contact .text-danger {
@@ -496,14 +508,16 @@ footer {
   text-align: center; }
   footer span.copyright {
     line-height: 40px;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "BenchNine", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    font-size: 1.5em;
     text-transform: none; }
   footer ul.quicklinks {
     margin-bottom: 0;
     line-height: 40px;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "BenchNine", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    font-size: 1.5em;
     text-transform: none; }
 
 ul.social-buttons {

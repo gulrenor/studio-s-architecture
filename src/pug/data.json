@@ -1,6 +1,5 @@
 {
-  "social": [
-    {
+  "social": [{
       "url": "https://twitter.com/Studio_S_Arch",
       "faSvcIcon": "fa-twitter"
     },
@@ -13,8 +12,7 @@
       "faSvcIcon": "fa-linkedin"
     }
   ],
-  "otb": [
-    {
+  "otb": [{
       "active": false,
       "thumb": "img/on-the-boards/dean-bank-thumb.jpg",
       "img": "img/on-the-boards/dean-bank.jpg",
@@ -69,44 +67,79 @@
       "desc": ""
     },
     {
-      "active": true,
+      "active": false,
       "thumb": "img/on-the-boards/20180511_1_thumb.jpg",
       "img": "img/on-the-boards/20180511_1.jpg",
       "desc": ""
     },
     {
-      "active": true,
+      "active": false,
       "thumb": "img/on-the-boards/20180511_2_thumb.jpg",
       "img": "img/on-the-boards/20180511_2.jpg",
       "desc": ""
     },
     {
-      "active": true,
+      "active": false,
       "thumb": "img/on-the-boards/20180511_3_thumb.jpg",
       "img": "img/on-the-boards/20180511_3.jpg",
       "desc": ""
     },
     {
-      "active": true,
+      "active": false,
       "thumb": "img/on-the-boards/20180511_4_thumb.jpg",
       "img": "img/on-the-boards/20180511_4.jpg",
       "desc": ""
     },
     {
-      "active": true,
+      "active": false,
       "thumb": "img/on-the-boards/20180511_5_thumb.jpg",
       "img": "img/on-the-boards/20180511_5.jpg",
       "desc": ""
     },
     {
-      "active": true,
+      "active": false,
       "thumb": "img/on-the-boards/20180511_6_thumb.jpg",
       "img": "img/on-the-boards/20180511_6.jpg",
       "desc": ""
+    },
+    {
+      "active": true,
+      "thumb": "img/on-the-boards/centreville-warwick-thumb.jpg",
+      "img": "img/on-the-boards/centreville-warwick.jpg",
+      "desc": ""
+    },
+    {
+      "active": true,
+      "thumb": "img/on-the-boards/centreville-thumb.jpg",
+      "img": "img/on-the-boards/centreville.jpg",
+      "desc": ""
+    },
+    {
+      "active": true,
+      "thumb": "img/on-the-boards/country-bank2-thumb.jpg",
+      "img": "img/on-the-boards/country-bank2.jpg",
+      "desc": ""
+    },
+    {
+      "active": true,
+      "thumb": "img/on-the-boards/bank-gloucester-thumb.jpg",
+      "img": "img/on-the-boards/bank-gloucester.jpg",
+      "desc": ""
+    },
+    {
+      "active": true,
+      "thumb": "img/on-the-boards/inglewood-vjs-thumb.jpg",
+      "img": "img/on-the-boards/inglewood-vjs.jpg",
+      "desc": ""
+    },
+    {
+      "active": true,
+      "thumb": "img/on-the-boards/smcu-thumb.jpg",
+      "img": "img/on-the-boards/smcu.jpg",
+      "desc": ""
     }
   ],
-  "portfolio": [
-    {
+  "portfolio": [{
       "active": true,
       "client": "Georgetown Bank",
       "location": "North Andover, MA",
@@ -115,8 +148,7 @@
       "credits": [
         "Architect: Studio S Architecture"
       ],
-      "gallery": [
-        {
+      "gallery": [{
           "img": "img/portfolio/georgetown-bank/ext1.JPG",
           "desc": ""
         },
@@ -160,8 +192,7 @@
         "Designer/Architect: Vincent James Sorrentino, AIA while working at DRL Associates, Architects, Inc.",
         "Project Management & Design Consultant: NES Group"
       ],
-      "gallery": [
-        {
+      "gallery": [{
           "img": "img/portfolio/2.jpg",
           "desc": ""
         },
@@ -193,8 +224,7 @@
         "Architect: Studio S Architecture",
         "Design/Build/Furnish Consultant: Solidus"
       ],
-      "gallery": [
-        {
+      "gallery": [{
           "img": "img/portfolio/cpcu/cpcu-001.jpg",
           "desc": ""
         },
@@ -229,26 +259,318 @@
       ]
     },
     {
+      "active": true,
+      "client": "Onset Residence",
+      "location": "Onset, MA",
+      "thumb": "img/portfolio/onset/thumb.jpg",
+      "desc": "A residence located in Onset, MA",
+      "credits": [
+        "Architect: Studio S Architecture"
+      ],
+      "gallery": [{
+          "img": "img/portfolio/onset/1.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/onset/2.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/onset/3.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/onset/4.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/onset/5.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/onset/6.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/onset/7.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/onset/8.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/onset/9.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/onset/10.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/onset/11.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/onset/12.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/onset/13.jpg",
+          "desc": ""
+        }
+      ]
+    },
+    {
       "active": false,
-      "client": "GFA Federal Credit Union",
-      "location": "Leominster, MA",
-      "thumb": "img/portfolio/gfa-leominster_thumb.jpg",
+      "client": "Anytime Fitness",
+      "location": "Peabody, MA",
+      "thumb": "img/portfolio/anytime-fitness/anytime-thumb.jpg",
+      "desc": "A fitness chain located in Peabody, MA.",
+      "credits": [],
+      "gallery": [{
+          "img": "img/portfolio/anytime-fitness/anytime_fitness-001_1.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/anytime-fitness/anytime_fitness-002_1.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/anytime-fitness/anytime_fitness-003_1.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/anytime-fitness/anytime_fitness-004_1.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/anytime-fitness/anytime_fitness-005_1.jpg",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "active": true,
+      "client": "The Savings Bank",
+      "location": "Andover, MA",
+      "thumb": "img/portfolio/tsb-andover/tsb-andover-thumb.jpg",
+      "desc": "A financial institution in Andover, MA",
+      "credits": [
+        "Architect: Studio S Architecture",
+        "Design/Build/Furnish Consultant: Solidus",
+        "Photo Credit: Le Petit Studio"
+      ],
+      "gallery": [{
+          "img": "img/portfolio/tsb-andover/tsb-andover-1.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/tsb-andover/tsb-andover-2.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/tsb-andover/tsb-andover-3.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/tsb-andover/tsb-andover-4.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/tsb-andover/tsb-andover-5.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/tsb-andover/tsb-andover-6.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/tsb-andover/tsb-andover-7.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/tsb-andover/tsb-andover-8.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/tsb-andover/tsb-andover-9.jpg",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "active": true,
+      "client": "Dean Bank",
+      "location": "Franklin, MA",
+      "thumb": "img/portfolio/dean-bank-franklin/dean-bank-franklin-thumb.jpg",
       "desc": "",
       "credits": [
-        "Designer/Architect: Vincent James Sorrentino, AIA while working at DRL Associates, Architects, Inc.",
-        "Project Management & Design Consultant: NES Group"
+        "Architect: Studio S Architecture",
+        "Design/Build/Furnish Consultant: Solidus"
       ],
-      "gallery": [
-        {
-          "img": "img/portfolio/2%20-%20GFA%20Leominster%20Exterior.jpg",
+      "gallery": [{
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-01.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/6%20-%20Waiting%20Area%20&%20Teller.jpg",
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-02.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/7%20-%20Tellers.jpg",
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-03.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-04.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-05.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-06.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-07.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-08.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-09.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-10.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-11.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-12.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-13.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-14.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-15.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-16.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-17.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-18.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-19.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-20.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-21.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-22.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-23.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-24.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-25.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-26.jpg",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "active": true,
+      "client": "Polish National Credit Union",
+      "location": "Chicopee, MA",
+      "thumb": "img/portfolio/pncu-chicopee/pncu-chicopee-thumb.jpg",
+      "desc": "",
+      "credits": [
+        "Architect: Studio S Architecture",
+        "Design/Build/Furnish Consultant: Solidus"
+      ],
+      "gallery": [{
+          "img": "img/portfolio/pncu-chicopee/pncu-chicopee-01.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/pncu-chicopee/pncu-chicopee-02.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/pncu-chicopee/pncu-chicopee-03.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/pncu-chicopee/pncu-chicopee-04.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/pncu-chicopee/pncu-chicopee-05.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/pncu-chicopee/pncu-chicopee-06.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/pncu-chicopee/pncu-chicopee-07.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/pncu-chicopee/pncu-chicopee-08.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/pncu-chicopee/pncu-chicopee-09.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/pncu-chicopee/pncu-chicopee-10.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/pncu-chicopee/pncu-chicopee-11.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/pncu-chicopee/pncu-chicopee-12.jpg",
           "desc": ""
         }
       ]
@@ -263,8 +585,7 @@
         "Architect: Studio S Architecture",
         "Design/Build/Furnish Consultant: Solidus"
       ],
-      "gallery": [
-        {
+      "gallery": [{
           "img": "img/portfolio/florence-bank/florence-bank01.jpg",
           "desc": ""
         },
@@ -331,47 +652,16 @@
       ]
     },
     {
-      "active": false,
-      "client": "Anytime Fitness",
-      "location": "Peabody, MA",
-      "thumb": "img/portfolio/anytime-fitness/anytime-thumb.jpg",
-      "desc": "A fitness chain located in Peabody, MA.",
-      "credits": [],
-      "gallery": [
-        {
-          "img": "img/portfolio/anytime-fitness/anytime_fitness-001_1.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/anytime-fitness/anytime_fitness-002_1.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/anytime-fitness/anytime_fitness-003_1.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/anytime-fitness/anytime_fitness-004_1.jpg",
-          "desc": ""
-        },
-        {
-          "img": "img/portfolio/anytime-fitness/anytime_fitness-005_1.jpg",
-          "desc": ""
-        }
-      ]
-    },
-    {
       "active": true,
-      "client": "Marlborough Savings Bank",
+      "client": "Main Street Bank",
       "location": "Sudbury, MA",
       "thumb": "img/portfolio/marlborough-savings-bank/thumb.jpg",
-      "desc": "A financial institution in Sudbury, MA",
+      "desc": "A financial institution in Sudbury, MA. Formerly Marlborough Savings Bank",
       "credits": [
         "Architect: Studio S Architecture",
         "Design/Build/Furnish Consultant: Solidus"
       ],
-      "gallery": [
-        {
+      "gallery": [{
           "img": "img/portfolio/marlborough-savings-bank/1.JPG",
           "desc": ""
         },
@@ -411,113 +701,130 @@
     },
     {
       "active": true,
-      "client": "The Savings Bank",
-      "location": "Andover, MA",
-      "thumb": "img/portfolio/tsb-andover/tsb-andover-thumb.jpg",
-      "desc": "A financial institution in Andover, MA",
+      "client": "Country Bank",
+      "location": "Ludlow, MA",
+      "thumb": "img/portfolio/country-bank-ludlow/country-bank-ludlow-thumb.jpg",
+      "desc": "",
       "credits": [
         "Architect: Studio S Architecture",
-        "Design/Build/Furnish Consultant: Solidus"
+        "Design/Build/Furnish Consultant: Solidus",
+        "Photo Credit: Le Petit Studio / Studio S Architecture"
       ],
-      "gallery": [
-        {
-          "img": "img/portfolio/tsb-andover/tsb-andover-1.jpg",
+      "gallery": [{
+          "img": "img/portfolio/country-bank-ludlow/country-bank-ludlow-01.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/tsb-andover/tsb-andover-2.jpg",
+          "img": "img/portfolio/country-bank-ludlow/country-bank-ludlow-02.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/tsb-andover/tsb-andover-3.jpg",
+          "img": "img/portfolio/country-bank-ludlow/country-bank-ludlow-03.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/tsb-andover/tsb-andover-4.jpg",
+          "img": "img/portfolio/country-bank-ludlow/country-bank-ludlow-04.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/tsb-andover/tsb-andover-5.jpg",
+          "img": "img/portfolio/country-bank-ludlow/country-bank-ludlow-05.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/tsb-andover/tsb-andover-6.jpg",
+          "img": "img/portfolio/country-bank-ludlow/country-bank-ludlow-06.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/tsb-andover/tsb-andover-7.jpg",
+          "img": "img/portfolio/country-bank-ludlow/country-bank-ludlow-07.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/tsb-andover/tsb-andover-8.jpg",
+          "img": "img/portfolio/country-bank-ludlow/country-bank-ludlow-08.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/tsb-andover/tsb-andover-9.jpg",
+          "img": "img/portfolio/country-bank-ludlow/country-bank-ludlow-09.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/country-bank-ludlow/country-bank-ludlow-10.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/country-bank-ludlow/country-bank-ludlow-11.jpg",
           "desc": ""
         }
       ]
     },
     {
       "active": true,
-      "client": "Onset Residence",
-      "location": "Onset, MA",
-      "thumb": "img/portfolio/onset/thumb.jpg",
-      "desc": "A residence located in Onset, MA",
+      "client": "United Bank",
+      "location": "Hartford, CT",
+      "thumb": "img/portfolio/united-bank-hartford/united-bank-hartford-thumb.jpg",
+      "desc": "",
       "credits": [
-        "Architect: Studio S Architecture"
+        "Architect: Studio S Architecture",
+        "Design/Build/Furnish Consultant: Solidus",
+        "Photos: Le Petit Studio"
       ],
-      "gallery": [
-        {
-          "img": "img/portfolio/onset/1.jpg",
+      "gallery": [{
+          "img": "img/portfolio/united-bank-hartford/united-bank-hartford-01.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/onset/2.jpg",
+          "img": "img/portfolio/united-bank-hartford/united-bank-hartford-02.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/onset/3.jpg",
+          "img": "img/portfolio/united-bank-hartford/united-bank-hartford-03.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/onset/4.jpg",
+          "img": "img/portfolio/united-bank-hartford/united-bank-hartford-04.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/onset/5.jpg",
+          "img": "img/portfolio/united-bank-hartford/united-bank-hartford-05.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/onset/6.jpg",
+          "img": "img/portfolio/united-bank-hartford/united-bank-hartford-06.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/onset/7.jpg",
+          "img": "img/portfolio/united-bank-hartford/united-bank-hartford-07.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/onset/8.jpg",
+          "img": "img/portfolio/united-bank-hartford/united-bank-hartford-08.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/onset/9.jpg",
+          "img": "img/portfolio/united-bank-hartford/united-bank-hartford-09.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/onset/10.jpg",
+          "img": "img/portfolio/united-bank-hartford/united-bank-hartford-10.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/onset/11.jpg",
+          "img": "img/portfolio/united-bank-hartford/united-bank-hartford-11.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/onset/12.jpg",
+          "img": "img/portfolio/united-bank-hartford/united-bank-hartford-12.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/onset/13.jpg",
+          "img": "img/portfolio/united-bank-hartford/united-bank-hartford-13.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/united-bank-hartford/united-bank-hartford-14.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/united-bank-hartford/united-bank-hartford-15.jpg",
           "desc": ""
         }
       ]
@@ -531,8 +838,7 @@
       "credits": [
         "Architect: Studio S Architecture"
       ],
-      "gallery": [
-        {
+      "gallery": [{
           "img": "img/portfolio/mfs-roof-atrium/mfs-atrium-01.jpg",
           "desc": ""
         },
@@ -592,6 +898,85 @@
     },
     {
       "active": true,
+      "client": "MFS Investment Management",
+      "location": "Boylston Street, Boston, MA",
+      "thumb": "img/portfolio/mfs-roof/thumb.jpg",
+      "desc": "MFS Private Roof Deck overlooking Boylston Street, Boston, MA",
+      "credits": [
+        "Architect: Studio S Architecture"
+      ],
+      "gallery": [{
+          "img": "img/portfolio/mfs-roof/1.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof/2.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof/3.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof/4.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof/5.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof/6.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof/7.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof/8.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof/9.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof/10.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/mfs-roof/11.jpg",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "active": false,
+      "client": "GFA Federal Credit Union",
+      "location": "Leominster, MA",
+      "thumb": "img/portfolio/gfa-leominster_thumb.jpg",
+      "desc": "",
+      "credits": [
+        "Designer/Architect: Vincent James Sorrentino, AIA while working at DRL Associates, Architects, Inc.",
+        "Project Management & Design Consultant: NES Group"
+      ],
+      "gallery": [{
+          "img": "img/portfolio/2%20-%20GFA%20Leominster%20Exterior.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/6%20-%20Waiting%20Area%20&%20Teller.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/7%20-%20Tellers.jpg",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "active": true,
       "client": "Mastria Mazda",
       "location": "Raynham, MA",
       "thumb": "img/portfolio/mazda/mazda-thumb.jpg",
@@ -600,8 +985,7 @@
         "Architect: Studio S Architecture",
         "Contractor: Kirker-Perry Construction"
       ],
-      "gallery": [
-        {
+      "gallery": [{
           "img": "img/portfolio/mazda/mazda01.jpg",
           "desc": ""
         },
@@ -681,72 +1065,112 @@
     },
     {
       "active": true,
-      "client": "MFS Investment Management",
-      "location": "Boylston Street, Boston, MA",
-      "thumb": "img/portfolio/mfs-roof/thumb.jpg",
-      "desc": "MFS Private Roof Deck overlooking Boylston Street, Boston, MA",
+      "client": "Centreville Bank",
+      "location": "East Greenwich, RI",
+      "thumb": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-thumb.jpg",
+      "desc": "",
       "credits": [
-        "Architect: Studio S Architecture"
+        "Architect: Studio S Architecture",
+        "Design/Build/Furnish Consultant: Solidus",
+        "Photo Credit: Le Petit Studio"
       ],
-      "gallery": [
-        {
-          "img": "img/portfolio/mfs-roof/1.jpg",
+      "gallery": [{
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-01.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/mfs-roof/2.jpg",
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-02.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/mfs-roof/3.jpg",
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-03.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/mfs-roof/4.jpg",
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-04.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/mfs-roof/5.jpg",
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-05.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/mfs-roof/6.jpg",
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-06.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/mfs-roof/7.jpg",
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-07.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/mfs-roof/8.jpg",
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-08.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/mfs-roof/9.jpg",
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-09.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/mfs-roof/10.jpg",
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-10.jpg",
           "desc": ""
         },
         {
-          "img": "img/portfolio/mfs-roof/11.jpg",
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-11.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-12.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-13.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-14.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-15.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-16.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-17.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-18.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-19.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-20.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-21.jpg",
           "desc": ""
         }
       ]
     },
     {
       "active": true,
-      "client": "Marlborough Savings Bank",
+      "client": "Main Street Bank",
       "location": "Hudson, MA",
       "thumb": "img/portfolio/msb-hudson/msb-hudson-thumb.jpg",
-      "desc": "",
+      "desc": "Formerly Marlborough Savings Bank",
       "credits": [
         "Architect: Studio S Architecture",
         "Design/Build/Furnish Consultant: Solidus"
       ],
-      "gallery": [
-        {
+      "gallery": [{
           "img": "img/portfolio/msb-hudson/Exterior-1.jpg",
           "desc": ""
         },
@@ -796,6 +1220,81 @@
         },
         {
           "img": "img/portfolio/msb-hudson/Interior-8.jpg",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "active": true,
+      "client": "Powerline Tattoo",
+      "location": "Cranston, RI",
+      "thumb": "img/portfolio/powerline-tattoo-cranston/powerline-tattoo-cranston-thumb.jpg",
+      "desc": "",
+      "credits": [
+        "Architect: Studio S Architecture"
+      ],
+      "gallery": [{
+          "img": "img/portfolio/powerline-tattoo-cranston/powerline-tattoo-cranston-01.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/powerline-tattoo-cranston/powerline-tattoo-cranston-02.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/powerline-tattoo-cranston/powerline-tattoo-cranston-03.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/powerline-tattoo-cranston/powerline-tattoo-cranston-04.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/powerline-tattoo-cranston/powerline-tattoo-cranston-05.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/powerline-tattoo-cranston/powerline-tattoo-cranston-06.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/powerline-tattoo-cranston/powerline-tattoo-cranston-07.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/powerline-tattoo-cranston/powerline-tattoo-cranston-08.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/powerline-tattoo-cranston/powerline-tattoo-cranston-09.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/powerline-tattoo-cranston/powerline-tattoo-cranston-10.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/powerline-tattoo-cranston/powerline-tattoo-cranston-11.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/powerline-tattoo-cranston/powerline-tattoo-cranston-12.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/powerline-tattoo-cranston/powerline-tattoo-cranston-13.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/powerline-tattoo-cranston/powerline-tattoo-cranston-14.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/powerline-tattoo-cranston/powerline-tattoo-cranston-15.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/powerline-tattoo-cranston/powerline-tattoo-cranston-16.jpg",
           "desc": ""
         }
       ]
