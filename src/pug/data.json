@@ -1460,6 +1460,46 @@
           "desc": ""
         }
       ]
+    },
+    {
+      "active": true,
+      "client": "New Residence",
+      "location": "Raynham, MA",
+      "thumb": "img/portfolio/residence-raynham/residence-raynham-thumb.jpg",
+      "desc": "",
+      "credits": [
+        "Architect: Studio S Architecture",
+        "Photo Credit: Aaron Usher III Photography"
+      ],
+      "gallery": [{
+          "img": "img/portfolio/residence-raynham/residence-raynham-01.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/residence-raynham/residence-raynham-02.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/residence-raynham/residence-raynham-03.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/residence-raynham/residence-raynham-04.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/residence-raynham/residence-raynham-05.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/residence-raynham/residence-raynham-06.jpg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/residence-raynham/residence-raynham-07.jpg",
+          "desc": ""
+        }
+      ]
     }
   ]
 }
