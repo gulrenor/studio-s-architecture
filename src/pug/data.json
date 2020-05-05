@@ -1255,12 +1255,13 @@
     },
     {
       "active": true,
-      "client": "New Residence",
+      "client": "Raynham Residence",
       "location": "Raynham, MA",
       "thumb": "img/portfolio/residence-raynham/residence-raynham-thumb.jpg",
       "desc": "",
       "credits": [
         "Architect: Studio S Architecture",
+        "Contractor: Kirker-Perry Construction",
         "Photo Credit: Aaron Usher III Photography"
       ],
       "gallery": [{
