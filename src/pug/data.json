@@ -1,5 +1,6 @@
 {
-  "social": [{
+  "social": [
+    {
       "url": "https://twitter.com/Studio_S_Arch",
       "faSvcIcon": "fa-twitter"
     },
@@ -12,7 +13,8 @@
       "faSvcIcon": "fa-linkedin"
     }
   ],
-  "otb": [{
+  "otb": [
+    {
       "active": false,
       "thumb": "img/on-the-boards/dean-bank-thumb.jpg",
       "img": "img/on-the-boards/dean-bank.jpg",
@@ -181,7 +183,230 @@
       "desc": ""
     }
   ],
-  "portfolio": [{
+  "portfolio": [
+    {
+      "active": true,
+      "client": "Centreville Bank",
+      "location": "Warwick, RI",
+      "thumb": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-thumb.jpg",
+      "desc": "",
+      "credits": [
+        "Architect: Studio S Architecture",
+        "Design/Build/Furnish Consultant: Solidus"
+      ],
+      "gallery": [
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-01.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-02.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-03.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-04.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-05.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-06.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-07.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-08.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-09.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-10.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-11.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-12.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-13.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-14.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-15.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-16.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-17.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-18.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-19.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-20.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-21.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-22.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-23.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-24.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-25.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-26.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/centreville-bank-warwick/centreville-bank-warwick-27.jpeg",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "active": true,
+      "client": "Bank Gloucester",
+      "location": "Ipswich, MA",
+      "thumb": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-thumb.jpg",
+      "desc": "",
+      "credits": [
+        "Architect: Studio S Architecture",
+        "Design/Build/Furnish Consultant: Solidus"
+      ],
+      "gallery": [
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-01.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-02.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-03.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-04.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-05.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-06.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-07.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-08.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-09.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-10.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-11.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-12.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-13.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-14.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-15.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-16.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-17.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-18.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-19.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-20.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-21.jpeg",
+          "desc": ""
+        },
+        {
+          "img": "img/portfolio/bank-gloucester-ipswich/bank-gloucester-ipswich-22.jpeg",
+          "desc": ""
+        }
+      ]
+    },
+    {
       "active": true,
       "client": "Bridgewater Savings Bank",
       "location": "Bridgewater, MA",
@@ -191,7 +416,8 @@
         "Architect: Studio S Architecture",
         "Design/Build/Furnish Consultant: Solidus"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/bridgewater-savings-bridgewater/bridgewater-savings-bridgewater-01.jpg",
           "desc": ""
         },
@@ -254,7 +480,8 @@
       "credits": [
         "Architect: Studio S Architecture"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/beacon-street-residence/beacon-street-residence-01.jpg",
           "desc": ""
         },
@@ -342,7 +569,8 @@
         "Designer/Architect: Vincent James Sorrentino, AIA while working at DRL Associates, Architects, Inc.",
         "Project Management & Design Consultant: NES Group"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/2.jpg",
           "desc": ""
         },
@@ -375,7 +603,8 @@
         "Design/Build/Furnish Consultant: Solidus",
         "Photo Credit: Le Petit Studio"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/tsb-andover/tsb-andover-1.jpg",
           "desc": ""
         },
@@ -424,7 +653,8 @@
         "Design/Build/Furnish Consultant: Solidus",
         "Photo Credit: Le Petit Studio"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/centreville-bank-east-greenwich/centreville-bank-east-greenwich-01.jpg",
           "desc": ""
         },
@@ -520,7 +750,8 @@
         "Architect: Studio S Architecture",
         "Design/Build/Furnish Consultant: Solidus"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/dean-bank-franklin/dean-bank-franklin-01.jpg",
           "desc": ""
         },
@@ -636,7 +867,8 @@
         "Architect: Studio S Architecture",
         "Design/Build/Furnish Consultant: Solidus"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/pncu-chicopee/pncu-chicopee-01.jpg",
           "desc": ""
         },
@@ -697,7 +929,8 @@
         "Design/Build/Furnish Consultant: Solidus",
         "Photo Credit: Le Petit Studio / Studio S Architecture"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/country-bank-ludlow/country-bank-ludlow-01.jpg",
           "desc": ""
         },
@@ -752,7 +985,8 @@
       "credits": [
         "Architect: Studio S Architecture"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/georgetown-bank/ext1.JPG",
           "desc": ""
         },
@@ -796,7 +1030,8 @@
         "Architect: Studio S Architecture",
         "Design/Build/Furnish Consultant: Solidus"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/florence-bank/florence-bank01.jpg",
           "desc": ""
         },
@@ -872,7 +1107,8 @@
         "Architect: Studio S Architecture",
         "Design/Build/Furnish Consultant: Solidus"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/marlborough-savings-bank/1.JPG",
           "desc": ""
         },
@@ -917,7 +1153,8 @@
       "thumb": "img/portfolio/anytime-fitness/anytime-thumb.jpg",
       "desc": "A fitness chain located in Peabody, MA.",
       "credits": [],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/anytime-fitness/anytime_fitness-001_1.jpg",
           "desc": ""
         },
@@ -950,7 +1187,8 @@
         "Design/Build/Furnish Consultant: Solidus",
         "Photo Credit: Le Petit Studio"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/cvb-west-warwick/cvb-west-warwick-01.jpg",
           "desc": ""
         },
@@ -1033,7 +1271,8 @@
       "credits": [
         "Architect: Studio S Architecture"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/mfs-roof/1.jpg",
           "desc": ""
         },
@@ -1088,7 +1327,8 @@
       "credits": [
         "Architect: Studio S Architecture"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/mfs-roof-atrium/mfs-atrium-01.jpg",
           "desc": ""
         },
@@ -1156,7 +1396,8 @@
         "Architect: Studio S Architecture",
         "Design/Build/Furnish Consultant: Solidus"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/cpcu/cpcu-001.jpg",
           "desc": ""
         },
@@ -1199,7 +1440,8 @@
       "credits": [
         "Architect: Studio S Architecture"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/onset/1.jpg",
           "desc": ""
         },
@@ -1264,7 +1506,8 @@
         "Contractor: Kirker-Perry Construction",
         "Photo Credit: Aaron Usher III Photography"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/residence-raynham/residence-raynham-01.jpg",
           "desc": ""
         },
@@ -1303,7 +1546,8 @@
       "credits": [
         "Architect: Studio S Architecture"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/powerline-tattoo-cranston/powerline-tattoo-cranston-01.jpg",
           "desc": ""
         },
@@ -1380,7 +1624,8 @@
         "Design/Build/Furnish Consultant: Solidus",
         "Photos: Le Petit Studio"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/united-bank-hartford/united-bank-hartford-01.jpg",
           "desc": ""
         },
@@ -1452,7 +1697,8 @@
         "Designer/Architect: Vincent James Sorrentino, AIA while working at DRL Associates, Architects, Inc.",
         "Project Management & Design Consultant: NES Group"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/2%20-%20GFA%20Leominster%20Exterior.jpg",
           "desc": ""
         },
@@ -1476,7 +1722,8 @@
         "Architect: Studio S Architecture",
         "Contractor: Kirker-Perry Construction"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/mazda/mazda01.jpg",
           "desc": ""
         },
@@ -1564,7 +1811,8 @@
         "Architect: Studio S Architecture",
         "Design/Build/Furnish Consultant: Solidus"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/msb-hudson/Exterior-1.jpg",
           "desc": ""
         },
@@ -1627,7 +1875,8 @@
       "credits": [
         "Architect: Studio S Architecture"
       ],
-      "gallery": [{
+      "gallery": [
+        {
           "img": "img/portfolio/thai-wellness-massage/thai-wellness-massage-01.jpg",
           "desc": ""
         },

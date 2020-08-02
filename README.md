@@ -10,3 +10,7 @@ Studio S Architecture
 
 ### Portfolio Modal
 + Max width 720px
+
+## Development Server
++ `gulp` compiles templates and json data
++ Site viewable locally at `/www/index.html`
